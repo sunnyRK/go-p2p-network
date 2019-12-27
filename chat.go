@@ -20,15 +20,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	// golog "github.com/ipfs/go-log"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p-core/crypto"
 	"github.com/libp2p/go-libp2p-core/network"
 	"github.com/libp2p/go-libp2p-core/peer"
 	"github.com/libp2p/go-libp2p-core/peerstore"
-
 	"github.com/multiformats/go-multiaddr"
-	// gologging "github.com/whyrusleeping/go-logging"
 )
 
 // Block represents each 'item' in the blockchain
@@ -156,7 +153,6 @@ func writeData(rw *bufio.ReadWriter) {
 	}
 
 }
-
 
 func main() {
 
