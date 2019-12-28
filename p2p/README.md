@@ -6,15 +6,15 @@
 Let's run for three peers.
 - Open terminal 1
     
-        ./main -sp 3001
+        ./p2p -sp 3001
 
 - Open terminal 2
 
-        ./main -sp 3002 -d /ip4/127.0.0.1/tcp/3001/p2p/<terminal-1 key  paste here>
+        ./p2p -sp 3002 -d /ip4/127.0.0.1/tcp/3001/p2p/<terminal-1 key  paste here>
 
 - Open terminal 3
 
-        ./main -sp 3003 -d /ip4/127.0.0.1/tcp/3002/p2p/<terminal-2 key  paste here>
+        ./p2p -sp 3003 -d /ip4/127.0.0.1/tcp/3002/p2p/<terminal-2 key  paste here>
 
 # Input
 

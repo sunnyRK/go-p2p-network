@@ -6,15 +6,15 @@
 Let's run for three peers.
 - Open terminal 1
     
-        ./chat -listen /ip4/127.0.0.1/tcp/6666
+        ./rendezvous -listen /ip4/127.0.0.1/tcp/6666
 
 - Open terminal 2
 
-        ./chat -listen /ip4/127.0.0.1/tcp/6668
+        ./rendezvous -listen /ip4/127.0.0.1/tcp/6668
 
 - Open terminal 3
 
-        ./chat -listen /ip4/127.0.0.1/tcp/6670
+        ./rendezvous -listen /ip4/127.0.0.1/tcp/6670
 
 # Input
 
